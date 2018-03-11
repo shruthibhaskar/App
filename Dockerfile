@@ -12,7 +12,7 @@ WORKDIR /home/nodeApp/dockerimage
 # If you are building your code for production
 # RUN npm install --only=production
 # Bundle app source
-COPY main.js .
+COPY server3.js .
 
-EXPOSE 5000
-CMD [ "node", "main.js" ]
+EXPOSE 3002
+CMD [ "node", "server3.js" ]
