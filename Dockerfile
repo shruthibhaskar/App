@@ -14,5 +14,5 @@ WORKDIR /home/nodeApp/dockerimage
 # Bundle app source
 COPY server3.js .
 
-EXPOSE 3003
+EXPOSE 3004
 CMD [ "node", "server3.js" ]
