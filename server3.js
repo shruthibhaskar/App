@@ -12,4 +12,4 @@ http.createServer(function (request, response) {
 }).listen(3004);
 
 // Console will print the message
-console.log('Server running 3004');
+console.log('Server running on port3004');
