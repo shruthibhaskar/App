@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/html'});
    
    // Send the response body as "Hello World"
-   response.end('<h2>My Third Node App<h2><br />');
-}).listen(3005);
+   response.end('<h2>My Third Node App -Jenkins<h2><br />');
+}).listen(3003);
 
 // Console will print the message
-console.log('Server running on port 3005');
+console.log('Server running on port 3003 from Jenkins');
