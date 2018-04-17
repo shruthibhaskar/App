@@ -12,4 +12,4 @@ http.createServer(function (request, response) {
 }).listen(3004);
 
 // Console will print the message
-console.log('Server running on port 3003 from Jenkins : PIPELINE JENKINS TEST AASSURANCE DEMO : Test Ramu jhdwhdewkjh ');
+console.log('Server running on port 3004 from Jenkins : PIPELINE JENKINS TEST AASSURANCE DEMO : Test Ramu jhdwhdewkjh ');
